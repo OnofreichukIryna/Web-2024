@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Glory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cinema Glory</h1>
+        <button id="themeToggle">Switch Theme</button>
+    </header>
+
+    <section id="movies">
+        <h2>Available Movies</h2>
+        <p class="movie">Inception</p>
+        <p class="movie">The Matrix</p>
+        <p class="movie">Interstellar</p>
+    </section>
+
+    <section id="bookings">
+        <h2>Book Your Tickets</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="movie">Movie:</label>
+            <select id="movie" required>
+                <option value="Inception">Inception</option>
+                <option value="The Matrix">The Matrix</option>
+                <option value="Interstellar">Interstellar</option>
+            </select>
+            <button type="submit">Book</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cinema Glory</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
